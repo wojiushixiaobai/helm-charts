@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   jumpserver:
   - apiVersion: v1
+    appVersion: v2.28.2
+    created: "2022-12-08T12:10:00.448885526Z"
+    description: A Helm chart for Deploying Jumpserver on Kubernetes
+    digest: bda56a5f8922e48c1d6783828a1160e3e833554ab3a7d100b07e6e838cd3aa09
+    home: https://jumpserver.org
+    icon: https://jumpserver.org/images/logo/favicon.ico
+    maintainers:
+    - email: support@fit2cloud.com
+      name: jumpserver
+    name: jumpserver
+    sources:
+    - https://github.com/jumpserver/
+    urls:
+    - https://github.com/wojiushixiaobai/helm-charts/releases/download/jumpserver-2.28.2/jumpserver-2.28.2.tgz
+    version: 2.28.2
+  - apiVersion: v1
     appVersion: v2.28.1
     created: "2022-11-18T09:52:22.141845398Z"
     description: A Helm chart for Deploying Jumpserver on Kubernetes
